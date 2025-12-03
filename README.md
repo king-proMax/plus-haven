@@ -3,6 +3,7 @@
 > A modern, bilingual (Arabic/English) web utilities platform with 10 essential tools for productivity, privacy, and speed.
 
 **Design Rights: معاذ مفرح (Moaadh Mufrah)**  
+Inspired by [10015.io](https://10015.io) but uniquely designed and built from scratch.
 
 ---
 
@@ -382,6 +383,7 @@ docker run -p 3000:3000 toolhub
 
 **Design Rights: معاذ مفرح (Moaadh Mufrah)**
 
+Inspired by [10015.io](https://10015.io) but uniquely designed and built from scratch.
 
 ---
 

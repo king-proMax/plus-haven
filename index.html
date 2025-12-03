@@ -2,13 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello world project</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>ToolHub - Fast Web Tools for Daily Use</title>
+    <meta name="description" content="Free, fast, and private web utilities platform. Password generator, JSON formatter, color picker, QR code generator, and more. No signup required, everything runs locally." />
+    <meta name="keywords" content="web tools, password generator, json formatter, color picker, qr code, url encoder, text converter, calculator, free tools, online tools" />
+    <meta name="author" content="Moaadh Mufrah - معاذ مفرح" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ToolHub - Fast Web Tools for Daily Use" />
+    <meta property="og:description" content="Free, fast, and private web utilities for developers and content creators" />
+    <meta property="og:site_name" content="ToolHub" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ar_SA" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ToolHub - Fast Web Tools" />
+    <meta name="twitter:description" content="Free web utilities platform with password generator, JSON formatter, and more" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#3B82F6" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://toolhub.example.com" />
   </head>
-
   <body>
     <div id="root"></div>
-
     <script type="module" src="/client/App.tsx"></script>
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "WebApplication",
+      "name": "ToolHub",
+      "description": "Free web utilities platform for daily tasks",
+      "url": "https://toolhub.example.com",
+      "applicationCategory": "Utility",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "Moaadh Mufrah"
+      }
+    }
+    </script>
   </body>
 </html>
